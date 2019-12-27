@@ -12,5 +12,6 @@ services:
       args:
         NODE_VERSION: $NODE_VERSION
     volumes:
+      - ./nextcloud:/var/www/html
       - ./custom_apps:/var/www/html/custom_apps
     restart: always
