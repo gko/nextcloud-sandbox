@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  nextcloud:
+    environment:
+      - NODE_VERSION
+    container_name: nextcloud
+    ports:
+      - 8080:80
+    build:
+      context: .
+      args:
+        NODE_VERSION: $NODE_VERSION
+    volumes:
+      - ./custom_apps:/var/www/html/custom_apps
+    restart: always
