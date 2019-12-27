@@ -46,6 +46,8 @@ docker exec -it \
 
 Then follow the `developer` instructions in the [notes/README](https://github.com/nextcloud/notes#warning-developer-info)
 
+Once you start app with `npm run dev` within docker you can simply develop in the local `custom_apps/notes/` folder.
+
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
