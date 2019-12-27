@@ -25,13 +25,13 @@ then `nextcloud` will be available on [localhost:8080](https://localhost:8080/)
 
 ### Node version
 
-By default `node` 12 will be installed, but you can change it in [`.env`](/blob/master/.env) file.
+By default `node` 12 will be installed, but you can change it in [`.env`](/.env) file.
 
 ### Creating app
 
 Let's look at the example of [nextcloud/notes](https://github.com/nextcloud/notes)
 
-First, clone repo within [`custom_apps/`](/tree/master/custom_apps) folder:
+First, clone repo within [`custom_apps/`](/custom_apps) folder:
 ```shell
 git clone https://github.com/nextcloud/notes.git
 ```
