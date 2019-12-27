@@ -16,7 +16,7 @@ git clone https://github.com/gko/nextcloud-sandbox.git
 
 ## Usage
 
-To run it simply launch build ():
+To run it simply launch:
 ```shell
 docker-compose -f stack.yml up
 ```
