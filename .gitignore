@@ -1,3 +1,5 @@
 .DS_store
 custom_apps/*
 !custom_apps/.gitkeep
+nextcloud/*
+!nextcloud/.gitkeep
